@@ -8,8 +8,6 @@
 
 int number =0;
 Console.Write("Enter integer: ");
-
-
 while (!int.TryParse(Console.ReadLine(), out number))
 {
     Console.WriteLine("input error!");
